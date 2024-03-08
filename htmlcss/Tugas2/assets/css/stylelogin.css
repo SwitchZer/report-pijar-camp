@@ -1,0 +1,131 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.wrapper-left {
+  width: 50%;
+  background-image: linear-gradient(#efc81a90 100%, white 0%),
+    url("/assets/images/bg-login.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper-left img {
+  width: 100px;
+}
+
+.wrapper-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper-right h1 {
+  color: #efc81a;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.wrapper-right p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8692a6;
+}
+
+.wrapper-right label {
+  width: 49px;
+  height: 19px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #696f79;
+}
+
+.wrapper-right input[type="email"],
+input[type="password"] {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 426px;
+  height: 64px;
+  border-radius: 6px;
+  color: #efc81a;
+  background-color: #efefef;
+  border: none;
+}
+
+.wrapper-right button {
+  background-color: #efc81a;
+  width: 426px;
+  height: 64px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  border: 0px;
+  margin-top: 20px;
+}
+
+.wrapper-right span {
+  width: 104px;
+  height: 16px;
+  font-family: Airbnb Cereal App;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #999999;
+}
+
+/* @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .wrapper-left,
+  .wrapper-right {
+    width: 100%;
+  }
+
+  .wrapper-left {
+    height: 50vh;
+  }
+
+  .wrapper-left img {
+    width: 80px;
+  }
+
+  .wrapper-right input[type="email"],
+  .wrapper-right input[type="password"] {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .wrapper-right button {
+    max-width: 100%;
+    width: 90%;
+  }
+} */
